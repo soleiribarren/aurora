@@ -6,138 +6,96 @@
 
 /* CARACTERISTICAS GENERICAS DE TODOS LOS HTML*/
 
-header{
-    height: 140px;
-    width: 100%;
+nav{
     background-color: rgb(20, 20, 69);
+    border: 2px solid rgb(229, 232, 170);
+}
+
+.navbar-nav .nav .paginas{
+    border: 2pxS solid rgb(229, 232, 170);
 }
 
 .logoA{
     color:rgb(229, 232, 170);
-    font-size: 100px;
+    font-size: 80px;
     text-transform: capitalize;
     text-align: left;
     font-family: 'square peg', cursive;
-    padding-left: 20px;
-    padding-bottom: 50px;
 }
 
-header a{
-    text-decoration: none;
-    color:rgb(229, 232, 170);
-}
 
-.logoB{
+/* ESTE FRAGMENTO CONTINUA EN EL CODIGO POR TENER PAGINAS CON CSS */
+
+/* .logoB{
     color:rgb(229, 232, 170);
     font-size: 20px;
     text-transform: capitalize;
     text-align: left;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding-left: 20px;
-    padding-top: 90px;  
+    padding-top: 60px;  */
+
+/* .fa-brands .fa-java{
+    font-size: 50px;
+    color: rgb(229, 232, 170);
+} */
+
+.navbar-dark .navbar-brand{
+    color: rgb(229, 232, 170);
 }
 
-.nav1{
-    float:right;
-}
-
-.nav1 ul li{
+.navegacionDelSitio .paginas li{
     list-style: none;
     display: inline-block;
-    margin-right: 15px;
-    padding-top: 5px;
+    margin-right: 5px;
+    padding-top: 80px;
 }
 
-.nav1 a{
+.navegacionDelSitio a{
     text-decoration: none;
-    color:rgb(229, 232, 170);
+    color:rgb(229, 232, 170) !important;
     font-family: 'square peg', cursive;
     text-transform: capitalize;
     font-size: 30px;   
 }
 
-.nav1 a:hover{
-    color:rgb(229, 232, 170);
+.navegacionDelSitio a:hover{
+    color: rgb(223, 223, 234) !important;
 }
 
-main{
-    height: 700px;
-    width: 100%;
-    background-image: url(img/portadahostel.jpg);
-    background-size: cover;
-    background-position: center;
+#collapsibleNavbar{
+    background-color: rgb(20, 20, 69); 
+}
+
+#collapsibleNavbar .paginas{
+    align-items: center;
 }
 
 /*FINALIZACION DE DESCRIPCION GENERICA*/
 
-/*INICIO*/
+/* INICIO */
 
-.tituloInicio{
-    height: 100px;
-    width: 700px;
-    color:rgb(20, 20, 69);
-    text-align: center;
-    font-family: 'square peg', cursive;
-    font-size: 50px;
-    background-color: rgb(229, 232, 170);
-    border: 5px dashed rgb(20, 20, 69);
-    position:absolute;
-    margin-top: 160px;
-    margin-left: 320px;
-    padding-top: 10px;
-    padding-left: 70px;
+.portada{
+    padding-top: 30px;
 }
 
 .textoInicio{
-    min-height: 400px;
-    width: 500px;
+    padding-top: 20px;
+}
+
+.foto1Portada{
+    padding-left: 20px;
+    padding-bottom: 40px;
+    padding-top: 20px;
+}
+
+/*NOSOTROS - CONTINUA CON CSS*/
+
+.nosotros{
+    height: 700px;
+    width: 100%;
     background-color: rgb(229, 232, 170);
-    color:rgb(20, 20, 69);
-    border: 3px solid rgb(20, 20, 69);
-    font-family: 'square peg', cursive;
-    font-size: 35px;
-    text-align: center;
-    padding-top: 30px;
-    margin-left: 450px;
-    margin-top: 270px;
-    position: absolute;
 }
-
-.fotosInicio{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-}
-
-.caja{
-    height: 150px;
-    width: 220px;
-    background-color: rgb(20, 20, 69);
-    border: 2px solid rgb(229, 232, 170);
-    color: rgb(229, 232, 170);
-    font-family: 'square peg';
-    font-size: 70px;
-    text-align: center;
-}
-
-.caja2{
-    background-image: url(img/HostelInicio.jpg);
-    background-size: cover;
-    background-position: center;
-}
-
-.caja4{
-    background-image: url(img/CafeInicio.webp);
-    background-size: cover;
-    background-position: center;  
-}
-
-.caja1, .caja3, .caja5{
-    padding-top: 30px;
-}
-
-/*NOSOTROS*/
 
 .nosotros .cuerpoTextoNosotros{
     margin-left: 300px;
@@ -210,7 +168,7 @@ main{
 
 /*FIN DE LA PAGINA NOSOTROS*/
 
-/* EL HOSTEL */
+/* EL HOSTEL - CONTINUA CON CSS*/
 
 .elHostel{
     height: 1300px;
@@ -384,19 +342,24 @@ th, td{
 
 /*CASA DE TE*/
 
+.casaDeTeAurora{
+    min-height: 700px;
+    width: 100%;
+    background-color: rgb(229, 232, 170);
+}
+
 .casaDeTe{
-    height: 500px;
-    width: 400px;
+    height: 600px;
+    width: 500px;
     color: rgb(20, 20, 69);
-    font-family:'square peg', cursive;
     text-align: center;
     padding-top: 5px;
     border: 5px solid rgb(20, 20, 69);
     font-size: 21px;
     background-color: rgb(229, 232, 170);
     position: absolute;
-    margin-left: 40px;
-    margin-top: 100px;
+    margin-top: 50px;
+    margin-left: 5px;
 }
 
 .casaDeTe ol li{
@@ -410,20 +373,29 @@ th, td{
 
 /*CONTACTO*/
 
+.paginaContacto{
+    min-height: 850px;
+    width: 100%;
+    background-color: rgb(229, 232, 170);
+}
+
 .contactoSolicitud{
-    height: 330px;
+    height: 830px;
     width: 400px;
     color: rgb(20, 20, 69);
     font-family:'square peg', cursive;
     text-align: center;
-    padding-top: 5px;
-    border: 5px solid rgb(20, 20, 69);
-    font-size: 30px;
     background-color: rgb(229, 232, 170);
-    margin-left: 500px;
+    font-size: 30px;
     position: absolute;
-    margin-left: 500px;
-    margin-top: 150px;
+    border: 4px solid rgb(20, 20, 69);
+    margin-top: 10px;
+    margin-bottom: 15px;
+    margin-left: 5px;
+}
+
+#nombre, #apellido, #edad, #email, #comentarios{
+    font-size: 25px;
 }
 
 /*FIN DE PAGINA DE CONTACTO*/
@@ -469,95 +441,3 @@ footer p{
     text-align: center;
 }
 
-
-/*FIN DE PIE DE PAGINA*/
-
-/* @media only screen and (min-width: 360px){
-    .cuerpoTextoNosotros{
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-    }
-}
-@media only screen and (min-width: 480px){
-    .cuerpoTextoHostel{
-        display: grid;
-        grid-template-columns: 100px 100px 100px 100px;
-    }
-    .imgP1, .imgP2, .imgP3, .imgP4{
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-    }
-}  */
-
-/* @media only screen and (min-width: 480px){
-    .contenedor{
-        background-color: orange;
-    }
-    .item{
-        border-radius: 20px;
-    }
-} */ 
-/* @media only screen and (min-width: 480px) and (max-width: 599px){
-    .galeria{
-        display: grid;
-        grid-row: 1fr 1fr;
-    }
- } 
- @media only screen and (min-width: 600px) and (max-width: 777px){
-     .nosotros{
-         display: flex;
-     }
-     .galeria{
-         display: grid;
-         grid-template-columns: repeat(3, 1fr);
-     }
-     .img1{
-         grid-column: 1/2;
-         grid-row: 1/3;
-     }
-     .img2{
-         grid-column: 2/3;
-         grid-row: 1/2;
-     }
-     .img3{
-         grid-column: 3/4;
-         grid-row: 1/3;
-     }
-     .img4{
-         grid-column: 2/3;
-         grid-row: 2/3;
-     }
-     .img5{
-         grid-column: 1/3;
-         grid-row: 3/4;
-     }
-     .img6{
-         grid-column: 3/4;
-         grid-row: 3/4;
-     }
-     .img7{
-         grid-column: 1/2;
-         grid-row: 4/5;
-     }
-     .img8{
-         grid-column: 2/4;
-         grid-row: 4/5;
-     }
- }
- @media only screen and (min-width: 768px){
-     .nosotros{
-         display: flex;
-     }
-     .galeria{
-         display: grid;
-         grid-template-columns: repeat(3, 1fr);
-         grid-row: 250px 250px;
-         gap: 20px;
-     }
-     .img{
-         border-radius: 10px;
-     }
-     .img8{
-         grid-column: 2/4;
-     }
- } */
