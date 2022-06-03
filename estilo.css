@@ -23,22 +23,28 @@ nav{
     font-family: 'square peg', cursive;
 }
 
+.logoA{
+        animation-name: logoAnimation;
+        animation-duration: 2s;
+        animation-timing-function: ease-in-out;
+        animation-delay: 1s;
+        animation-direction: normal;
+        animation-fill-mode: forwards;
+}
 
-/* ESTE FRAGMENTO CONTINUA EN EL CODIGO POR TENER PAGINAS CON CSS */
-
-/* .logoB{
-    color:rgb(229, 232, 170);
-    font-size: 20px;
-    text-transform: capitalize;
-    text-align: left;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    padding-left: 20px;
-    padding-top: 60px;  */
-
-/* .fa-brands .fa-java{
-    font-size: 50px;
-    color: rgb(229, 232, 170);
-} */
+@keyframes logoAnimation {
+    0% {
+      opacity: 0.25;
+      transform: translateX(-25px);
+    }
+    20%,80% {
+      opacity: 0.75;
+      transform: translateX(0);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(25px);}
+}
 
 .navbar-dark .navbar-brand{
     color: rgb(229, 232, 170);
@@ -70,6 +76,7 @@ nav{
 #collapsibleNavbar .paginas{
     align-items: center;
 }
+
 
 /*FINALIZACION DE DESCRIPCION GENERICA*/
 
@@ -134,6 +141,14 @@ nav{
     width: 300px;
     background-image: url(img/socia.jpg);
     background-size: contain;
+}
+
+.fotoAdrian:hover{
+    filter: grayscale(60%)
+}
+
+.fotoAylen:hover{
+    filter: sepia(60%)
 }
 
 .socios1{
