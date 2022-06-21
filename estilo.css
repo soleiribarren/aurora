@@ -1,458 +1,280 @@
-*{
-    margin: 0%;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0%;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-/* CARACTERISTICAS GENERICAS DE TODOS LOS HTML*/
-
-nav{
-    background-color: rgb(20, 20, 69);
-    border: 2px solid rgb(229, 232, 170);
+.h3 {
+  font-size: 50px;
+  font-family: Square Peg;
+  background-color: rgb(238, 195, 195);
+  color: rgb(21, 21, 98);
 }
 
-.navbar-nav .nav .paginas{
-    border: 2pxS solid rgb(229, 232, 170);
+.h3 {
+  font-size: 60px;
+  font-family: Comfortaa;
+  background-color: rgb(238, 195, 195);
+  color: rgb(21, 21, 98);
 }
 
-.logoA{
-    color:rgb(229, 232, 170);
-    font-size: 80px;
-    text-transform: capitalize;
-    text-align: left;
-    font-family: 'square peg', cursive;
+.h3 {
+  font-size: 30px;
+  font-family: Square Peg;
+  background-color: rgb(238, 195, 195);
+  color: rgb(21, 21, 98);
 }
 
-.logoA{
-        animation-name: logoAnimation;
-        animation-duration: 2s;
-        animation-timing-function: ease-in-out;
-        animation-delay: 1s;
-        animation-direction: normal;
-        animation-fill-mode: forwards;
+/* INICIO DE CARACTERISTICAS GENERICAS */
+header {
+  min-height: 50px;
+  width: auto;
+  background-color: rgb(21, 21, 98);
+  color: rgb(238, 195, 195);
+}
+
+nav .logoA {
+  font-size: 60px;
+  font-family: Comfortaa;
+  color: rgb(238, 195, 195);
+}
+
+nav .logoA a:hover {
+  font-size: 50px;
+  text-decoration: none;
+  color: rgb(238, 195, 195);
+}
+
+a {
+  color: rgb(238, 195, 195);
+}
+
+.logoTaza {
+  color: rgb(238, 195, 195);
+}
+
+.paginas {
+  font-size: 30px;
+  font-family: Square Peg;
+  margin-top: 75px;
+}
+
+.logoA {
+  animation-name: logoAnimation;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 1s;
+  animation-direction: normal;
+  animation-fill-mode: forwards;
 }
 
 @keyframes logoAnimation {
-    0% {
-      opacity: 0.25;
-      transform: translateX(-25px);
-    }
-    20%,80% {
-      opacity: 0.75;
-      transform: translateX(0);
-    }
-    100% {
-      opacity: 1;
-      transform: translateX(25px);}
+  0% {
+    opacity: 0.25;
+    transform: translateX(-25px);
+  }
+  20%, 80% {
+    opacity: 0.75;
+    transform: translateX(0);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(25px);
+  }
+}
+main {
+  height: auto;
+  width: auto;
 }
 
-.navbar-dark .navbar-brand{
-    color: rgb(229, 232, 170);
+h3 {
+  background-color: rgb(238, 195, 195);
+  color: rgb(21, 21, 98);
+  font-family: Square Peg;
+  font-size: 50px;
 }
 
-.navegacionDelSitio .paginas li{
-    list-style: none;
-    display: inline-block;
-    margin-right: 5px;
-    padding-top: 80px;
+.textoPrincipal {
+  background-color: rgb(238, 195, 195);
+  color: rgb(21, 21, 98);
+  font-size: 25px;
+  font-family: Comfortaa;
 }
 
-.navegacionDelSitio a{
-    text-decoration: none;
-    color:rgb(229, 232, 170) !important;
-    font-family: 'square peg', cursive;
-    text-transform: capitalize;
-    font-size: 30px;   
+.textoPrincipal p {
+  color: rgb(21, 21, 98);
 }
-
-.navegacionDelSitio a:hover{
-    color: rgb(223, 223, 234) !important;
-}
-
-#collapsibleNavbar{
-    background-color: rgb(20, 20, 69); 
-}
-
-#collapsibleNavbar .paginas{
-    align-items: center;
-}
-
 
 /*FINALIZACION DE DESCRIPCION GENERICA*/
-
 /* INICIO */
-
-.portada{
-    padding-top: 30px;
+.portada {
+  padding-top: 30px;
 }
 
-.textoInicio{
-    padding-top: 20px;
+.textoInicio {
+  padding-top: 20px;
 }
 
-.foto1Portada{
-    padding-left: 20px;
-    padding-bottom: 40px;
-    padding-top: 20px;
+.foto1Portada {
+  padding-left: 20px;
+  padding-bottom: 40px;
+  padding-top: 20px;
 }
 
-/*NOSOTROS - CONTINUA CON CSS*/
-
-.nosotros{
-    height: 700px;
-    width: 100%;
-    background-color: rgb(229, 232, 170);
+/*NOSOTROS*/
+.nosotros {
+  min-height: auto;
+  width: 100%;
 }
 
-.nosotros .cuerpoTextoNosotros{
-    margin-left: 300px;
-    margin-top: 50px;
-    position: absolute;
+.cuerpoTextoNosotros {
+  padding-top: 15px;
 }
 
-.cuerpoTextoNosotros{
-    height: 600px;
-    width: 750px;
-    display: grid;
-    border: 2px solid rgb(20, 20, 69);
-    background-color: rgba(229, 232, 170, 0.7);
-    grid-template-columns: 300px 300px;
-    grid-template-rows: 200px 200px;
-    grid-gap: 60px 40px;
-    justify-items: center;
-    align-items: center;
-    justify-content: center;
-    align-content: center;
-    grid-template-areas: "img1 img2"
-                         "img3 img4"
+h2 {
+  background-color: rgb(238, 195, 195);
 }
 
-.fotoAdrian{
-    grid-area: img1;
-    min-height: 200px;
-    width: 300px;
-    background-image: url(img/socio.jpg);
-    background-size: contain;
+.socios1 {
+  height: 225px;
+  width: 350px;
+  color: rgb(21, 21, 98);
+  text-align: center;
+  margin-top: 50px;
+  font-family: Comfortaa;
+  font-weight: 900;
+  font-size: 18px;
 }
 
-.fotoAylen{
-    grid-area: img3;
-    min-height: 200px;
-    width: 300px;
-    background-image: url(img/socia.jpg);
-    background-size: contain;
+.socios2 {
+  height: 280px;
+  width: 350px;
+  color: rgb(21, 21, 98);
+  text-align: center;
+  margin-top: 50px;
+  font-family: Comfortaa;
+  font-weight: 900;
+  font-size: 18px;
 }
 
-.fotoAdrian:hover{
-    filter: grayscale(60%)
+.fotoAylen {
+  padding-top: 100px;
+  margin-bottom: 35px;
 }
 
-.fotoAylen:hover{
-    filter: sepia(60%)
+.socios1 li, .socios2 li {
+  list-style: none;
 }
 
-.socios1{
-    grid-area: img2;
-    height: 225px;
-    width: 350px;
-    color: rgb(20, 20, 69);
-    text-align: center;    
-    margin-top: 20px;
-    font-family: 'square peg', cursive;
-    font-size: 21px;
-    font-weight: 900;
-    text-align: center;
-}
-
-.socios2{
-    grid-area: img4;
-    height: 250px;
-    width: 350px;
-    color: rgb(20, 20, 69);
-    text-align: center;    
-    margin-top: 20px;
-    font-family: 'square peg', cursive;
-    font-size: 21px;
-    font-weight: 900;
-    text-align: center;
-}
-
-.socios1 li, .socios2 li{
-    list-style: none;    
+.caracNosotros {
+  background-color: rgb(238, 195, 195);
 }
 
 /*FIN DE LA PAGINA NOSOTROS*/
-
-/* EL HOSTEL - CONTINUA CON CSS*/
-
-.elHostel{
-    height: 1300px;
-    width: 100%;
-    background-size: cover;
-    background-position: center;
+/* EL HOSTEL */
+.elHostel {
+  height: auto;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
 }
 
-.habitaciones{
-    min-height: 520px;
-    width: 100%;
-    background-color: rgba(229, 232, 170, 0.7);
-    position: absolute;
-    margin-top: 30px;
-    display: grid;
-    border: 3px solid rgb(20, 20, 69);
-    grid-template-columns: 280px 280px 280px 280px;
-    grid-gap: 20px 20px;
-    justify-items: center;
-    align-items: center;
-    justify-content: center;
-    align-content: center;
-    grid-template-areas: "imgH1 imgH2 imgH3 imgH4"
-                         "imgH5  imgH6 imgH6 imgH7"
+.carousel-inner img {
+  height: 600px;
+  width: 100%;
 }
 
-.imgH{
-    height: 200px;
-    width: 100%;
-    border: 3px solid rgb(20, 20, 69);
-}
-
-.imgH:hover{
-    transform: scale(1.5);
-    transition: all 0.7s;
-}
-
-.imgH1{
-    grid-area: imgH1;
-    background-image: url(img/patio.jpg);
-    background-size: cover;
-    background-position: center;
-}
-
-.imgH2{
-    grid-area: imgH2;
-    background-image: url(img/comedor.jpg);
-    background-size: cover;
-    background-position: center;
-}
-
-.imgH3{
-    grid-area: imgH3;
-    background-image: url(img/saladeestar.jpg);
-    background-size: cover;
-    background-position: center;
-}
-
-.imgH4{
-    grid-area: imgH4;
-    background-image: url(img/saladejuegos.jpeg);
-    background-size: cover;
-    background-position: center;
-}
-
-.imgH5{
-    grid-area: imgH5;
-    background-image: url(img/patio2.jpg);
-    background-size: cover;
-    background-position: center;
-}
-
-.imgH6{
-    grid-area: imgH6;
-    background-image: url(img/portadahostel.jpg);
-    background-size: cover;
-    background-position: center;
-}
-
-.imgH7{
-    grid-area: imgH7;
-    background-image: url(img/cafe.jpg);
-    background-size: cover;
-    background-position: center;
-}
-
-.cuerpoTextoHostel{
-    min-height: 650px;
-    width: 100%;
-    margin-top: 600px;
-    position: absolute; 
-    background-color: rgb(229, 232, 170);
-    display: grid;
-    border: 3px solid rgb(20, 20, 69);
-    background-color: rgba(229, 232, 170, 0.9);
-    grid-template-columns: 280px 280px 280px 280px;
-    grid-gap: 20px 20px;
-    justify-items: center;
-    align-items: center;
-    justify-content: center;
-    align-content: center;
-    grid-template-areas: "imgP1 imgP2 imgP3 imgP4"
-                         "img5 img6 img7 img8"
-                         "img9 img9 img9 img9"
-}
-
-.imgP{
-    border: 5px solid rgb(20, 20, 69);
-    height: 380px;
-    width: 100%;
-}
-
-.imgP:hover{
-    transform: scale(1.10);
-    transition: all 0.7s;
-}
-
-.imgP1{
-    grid-area: imgP1;
-    background-image: url(img/verano.jpg);
-    background-size: cover;
-    background-position: center;
-}
-.imgP2{
-    grid-area: imgP2;
-    background-image: url(img/otoño.jpg);
-    background-size: cover;
-    background-position: center;
-}
-.imgP3{
-    grid-area: imgP3;
-    background-image: url(img/invierno.jpg);
-    background-size: cover;
-    background-position: center;
-}
-.imgP4{
-    grid-area: imgP4;
-    background-image: url(img/primavera.jpg);
-    background-size: cover;
-    background-position: center;
-}
-
-.img{
-    border: 2px radius rgb(20, 20, 69);
-    font-family: 'square peg', cursive;
-    font-size: 40px;
-    font-weight: 800;
-    color: rgb(20, 20, 69);
-}
-
-.tabla{
-    min-height: 110px;
-    width: 700px;
-    border: rgb(20, 20, 69) 3px solid;
-    border-spacing: 0;
-    margin-left: 1000px;
-    font-family: 'square peg';
-    font-size: 25px;
-    color: rgb(20, 20, 69);
-}
-
-.tabla thead tr th{
-    border: rgb(20, 20, 69) 2px solid;
-}
-
-th, td{
-    border: 2px rgb(20, 20, 69) solid;   
+.espacioComun {
+  height: auto;
+  width: 100%;
+  color: rgb(21, 21, 98);
+  padding: 15px;
+  margin-top: 20px;
+  background-color: rgb(238, 195, 195);
+  font-family: Comfortaa;
+  font-size: 25px;
 }
 
 /*FINALIZACION DE PAGINA DEL HOSTEL*/
-
 /*CASA DE TE*/
-
-.casaDeTeAurora{
-    min-height: 700px;
-    width: 100%;
-    background-color: rgb(229, 232, 170);
+.menuAurora {
+  margin-top: 30px;
 }
 
-.casaDeTe{
-    height: 600px;
-    width: 500px;
-    color: rgb(20, 20, 69);
-    text-align: center;
-    padding-top: 5px;
-    border: 5px solid rgb(20, 20, 69);
-    font-size: 21px;
-    background-color: rgb(229, 232, 170);
-    position: absolute;
-    margin-top: 50px;
-    margin-left: 5px;
+img {
+  padding: 40px;
 }
 
-.casaDeTe ol li{
-    list-style: none;
-}
-
-.titulos{
-    font-size: 23px;
-    font-weight: bold;
+.textoMenu, .teanner, .brunch {
+  font-family: Comfortaa;
+  font-size: 70px;
+  text-align: center;
+  color: rgb(21, 21, 98);
 }
 
 /*CONTACTO*/
-
-.paginaContacto{
-    min-height: 850px;
-    width: 100%;
-    background-color: rgb(229, 232, 170);
+.paginaContacto {
+  min-height: 850px;
+  width: 100%;
+  background-color: rgb(238, 195, 195);
 }
 
-.contactoSolicitud{
-    height: 830px;
-    width: 400px;
-    color: rgb(20, 20, 69);
-    font-family:'square peg', cursive;
-    text-align: center;
-    background-color: rgb(229, 232, 170);
-    font-size: 30px;
-    position: absolute;
-    border: 4px solid rgb(20, 20, 69);
-    margin-top: 10px;
-    margin-bottom: 15px;
-    margin-left: 5px;
+.contactoSolicitud {
+  min-height: 700px;
+  width: 400px;
+  color: rgb(21, 21, 98);
+  font-family: Comfortaa;
+  background-color: rgb(238, 195, 195);
+  font-size: 20px;
+  position: absolute;
+  border: 4px solid rgb(21, 21, 98);
+  margin-top: 10px;
+  margin-bottom: 15px;
+  margin-left: 5px;
 }
 
-#nombre, #apellido, #edad, #email, #comentarios{
-    font-size: 25px;
+#nombre, #apellido, #edad, #email, #comentarios {
+  font-size: 18px;
 }
 
 /*FIN DE PAGINA DE CONTACTO*/
-
 /*PIE DE PAGINA*/
-
-footer{
-    min-height: 180px;
-    width: 100%;
-    background-color: rgb(20, 20, 69);
-    text-align: center;
-    font-family: 'square peg', cursive;
-    padding: 5px;
+footer {
+  min-height: 180px;
+  width: 100%;
+  background-color: rgb(21, 21, 98);
+  text-align: center;
+  font-family: Comfortaa;
+  padding: 5px;
 }
 
-footer .redes a{
-    font-size: 30px;
-    letter-spacing: 20px;
-    color:rgb(229, 232, 170);
-    text-decoration: none;
+footer .redes a {
+  font-size: 25px;
+  letter-spacing: 20px;
+  color: rgb(238, 195, 195);
+  text-decoration: none;
 }
 
-footer p{
-    color:rgb(229, 232, 170);
-    font-size: 20px;
-    padding-top: 30px;
-    letter-spacing: 3px;
+footer p {
+  color: rgb(238, 195, 195);
+  font-size: 20px;
+  padding-top: 30px;
+  letter-spacing: 3px;
 }
 
-.logoAPie{
-    color:rgb(229, 232, 170);
-    font-size: 40px;
-    text-transform: capitalize;
-    font-family: 'square peg', cursive;
-    text-align: center;
+.logoAPie {
+  color: rgb(238, 195, 195);
+  font-size: 25px;
+  font-family: Comfortaa;
+  text-align: center;
 }
 
-.logoBPie{
-    color:rgb(229, 232, 170);
-    font-size: 15px;
-    text-transform: capitalize;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-align: center;
+.logoBPie {
+  color: rgb(238, 195, 195);
+  font-size: 25px;
+  text-transform: capitalize;
+  font-family: Square Peg;
+  text-align: center;
 }
 
+/*# sourceMappingURL=estilo.css.map */
