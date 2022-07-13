@@ -305,7 +305,7 @@ a {
 
 .carta {
   background-color: rgba(253, 249, 243, 0.808);
-  height: 95%;
+  height: 100%;
   opacity: 0;
   z-index: 1;
   transform: translate(0%, -100%);
@@ -431,9 +431,6 @@ footer p {
   }
   .habitaciones {
     width: 270px;
-  }
-  .paginaContacto {
-    width: 150px;
   }
   .contactoSolicitud {
     min-width: 400px;
