@@ -82,7 +82,7 @@ a {
 
 .mainText {
   width: 100%;
-  padding: 10px;
+  padding: 20px;
   margin: auto;
   text-align: center;
 }
@@ -90,9 +90,9 @@ a {
 .mainText h2 {
   text-align: center;
   margin: 0 0 10px;
-  font-family: Square Peg;
+  font-family: Comfortaa;
   color: rgb(238, 195, 195);
-  font-size: 50px;
+  font-size: 40px;
   background-color: rgb(21, 21, 98);
 }
 
@@ -169,6 +169,7 @@ a {
   font-family: Square Peg;
   font-size: 45px;
   background-color: rgb(238, 195, 195);
+  color: rgb(21, 21, 98);
   margin-top: 10px;
 }
 
@@ -181,6 +182,11 @@ a {
 /*FINALIZACION DE PAGINA NOSOTROS/
 
 /* HABITACIONES */
+.mainHostel {
+  padding: 10px;
+  margin: 20px 0;
+}
+
 .headerBanner__hostel {
   width: 100%;
   height: 280px;
@@ -192,18 +198,13 @@ a {
   object-fit: cover;
 }
 
-.mainHostel {
-  padding: 10px;
-  margin: 20px 0;
-}
-
 .mainHostel h1 {
   background-color: rgb(238, 195, 195);
   color: rgb(21, 21, 98);
   width: 100%;
   height: auto;
   font-family: Comfortaa;
-  font-size: 50px;
+  font-size: 45px;
   text-align: center;
   margin: 10px 0px 10px 0px;
   padding-top: 10px;
@@ -231,7 +232,7 @@ a {
   justify-content: center;
   background-color: rgba(238, 195, 195, 0.438);
   color: rgb(21, 21, 98);
-  font-size: 50px;
+  font-size: 45px;
   cursor: pointer;
   font-family: Square Peg;
 }
@@ -264,6 +265,17 @@ a {
   margin: 20px 0;
 }
 
+.mainMenu h1 {
+  background-color: rgb(238, 195, 195);
+  color: rgb(21, 21, 98);
+  width: 100%;
+  height: auto;
+  font-family: Comfortaa;
+  font-size: 50px;
+  text-align: center;
+  margin: 10px 0px 10px 0px;
+}
+
 .mainMenu__brunch {
   display: grid;
   grid-template-columns: 1fr;
@@ -282,28 +294,18 @@ a {
   border-radius: 5px;
 }
 
-.mainMenu h1 {
-  background-color: rgb(238, 195, 195);
-  color: rgb(21, 21, 98);
-  width: 100%;
-  height: auto;
-  font-family: Comfortaa;
-  font-size: 50px;
-  text-align: center;
-  margin: 10px 0px 10px 0px;
-}
-
 .mainMenu__precio h2 {
   position: absolute;
   background-color: rgba(238, 195, 195, 0.438);
   color: rgb(21, 21, 98);
   font-size: 50px;
+  font-family: Comfortaa;
   cursor: pointer;
 }
 
 .carta {
   background-color: rgba(253, 249, 243, 0.808);
-  height: 100%;
+  height: 95%;
   opacity: 0;
   z-index: 1;
   transform: translate(0%, -100%);
@@ -329,7 +331,6 @@ a {
 }
 
 .contactoSolicitud {
-  min-width: 600px;
   color: rgb(21, 21, 98);
   font-family: Comfortaa;
   background-color: rgb(238, 195, 195);
@@ -410,7 +411,11 @@ footer p {
     grid-template-columns: repeat(2, 1fr);
   }
   .mainMenu__precio {
-    width: 220px;
+    width: 100%;
+  }
+  .mainMenu__precio h2 {
+    font-size: 30px;
+    padding-left: 50px;
   }
   .mainHostel__habitaciones {
     display: grid;
@@ -422,7 +427,7 @@ footer p {
 }
 @media (min-width: 600px) {
   .mainMenu__precio {
-    width: 270px;
+    width: 100%;
   }
   .habitaciones {
     width: 270px;
@@ -437,7 +442,7 @@ footer p {
 }
 @media (min-width: 768px) {
   .mainMenu__precio {
-    width: 350px;
+    width: 100%;
   }
   .habitaciones {
     width: 350px;
@@ -487,7 +492,7 @@ footer p {
     padding: 30px;
   }
   .mainMenu__precio {
-    width: 460px;
+    width: 100%;
   }
   .mainMenu__brunch {
     width: 100%;
@@ -510,13 +515,15 @@ footer p {
   .mainImg {
     grid-template-columns: repeat(4, 1fr);
     width: 90%;
-    height: 400px;
     padding: 0;
     gap: 20px;
   }
+  .mainText h2 {
+    font-size: 55px;
+  }
   .mainText p {
     margin: 20px 0;
-    font-size: 20px;
+    font-size: 25px;
   }
   .mainNosotros__container {
     max-width: 1200px;
@@ -532,7 +539,7 @@ footer p {
     grid-template-columns: repeat(4, 1fr);
   }
   .mainMenu__precio {
-    width: 260px;
+    width: 100%;
     height: 450px;
   }
   .mainMenu__brunch {
@@ -562,7 +569,7 @@ footer p {
     width: 1000px;
     margin-top: 70px;
     margin-bottom: 55px;
-    margin-left: 190px;
+    margin-left: 210px;
   }
 }
 
